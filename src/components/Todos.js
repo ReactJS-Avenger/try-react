@@ -4,17 +4,24 @@ import * as TodoList from "../actions/ActionTodos";
 class Todos extends React.Component{
     constructor(){
         super();
-
+        this.getTodos = this.getTodos.bind(this)
         this.state={
             todos: todoStore.getAll()
         }
     }
 
     componentWillMount(){
-        todoStore.on("change", ()=>{
-            this.setState({
-                todos: todoStore.getAll()
-            })
+        todoStore.on("change", this.getTodos)
+        console.log("count", todoStore.listenerCount("change"))
+    }
+
+    componentWillUnmount(){
+        todoStore.removeAllListeners("change", this.getTodos)
+    }
+
+    getTodos(){
+        this.setState({
+            todos: todoStore.getAll()
         })
     }
 
