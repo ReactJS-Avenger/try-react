@@ -1,70 +1,24 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. https://javascript.plainenglish.io/how-to-create-an-optimized-real-time-search-with-react-6dd4026f4fa9
+2. https://javascript.plainenglish.io/a-little-known-javascript-promise-feature-8a37d096ef2c
+3. https://javascript.plainenglish.io/mastering-react-build-switchable-dark-mode-with-styled-components-b54476ed7da
+4. https://javascript.plainenglish.io/mastering-react-basic-hooks-explained-9e579fcf4794
+5. https://javascript.plainenglish.io/step-by-step-tutorial-react-redux-2022-with-hooks-3b5d63b18be9
+6. https://javascript.plainenglish.io/react-useeffect-hook-usages-you-must-know-45157805fb98
+7. https://javascript.plainenglish.io/learn-how-to-use-map-filter-and-reduce-in-5-minutes-fbf5c5540b2f
+8. https://javascript.plainenglish.io/react-18-what-you-need-to-know-d7bed3216e2e
+9. https://javascript.plainenglish.io/object-destructuring-simplified-2078fad4772d
+10. https://javascript.plainenglish.io/array-destructuring-simplified-10300505499
+11. https://javascript.plainenglish.io/just-redux-the-complete-guide-1b95c35affff
+12. https://javascript.plainenglish.io/7-es6-javascript-tricks-to-make-you-a-better-programmer-a3edd07c1f52
+13. https://javascript.plainenglish.io/react-internationalization-i18n-and-localization-l10n-guide-fa3c1162a296
+14. https://javascript.plainenglish.io/react-18-quick-guide-core-concepts-explained-7be7ecac9dee
+15. https://javascript.plainenglish.io/react-virtual-dom-and-reconciliation-explained-like-im-five-6e4670ffc847
+16. https://medium.com/@umesh.rana0269/form-handling-in-react-js-using-react-hook-form-library-b0ceb17a0393
+17. https://giuseppeciullo.medium.com/the-power-of-react-refs-c3b01da44c9e
+18. https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2
+19. https://rajaraodv.medium.com/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f
+20. https://rajaraodv.medium.com/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a
+21. https://www.freecodecamp.org/news/how-to-work-with-multiple-checkboxes-in-react/
+22. https://codepen.io/mustafa-turk/pen/ExYzvmr
+23. https://codepen.io/developero/pen/GREYzrV
+24. https://codepen.io/jzmmm/pen/KKwjEXJ
