@@ -5,20 +5,20 @@ import { useRef, useState } from "react";
 
 function App() {
   //const [username, setUsername] = useState("")
-  const usernameRef = useRef();
 
   const handleSubmit=(e)=>{
     e.preventDefault();
-    console.log(usernameRef)
+    const data = new FormData(e.target)
+    console.log(Object.fromEntries(data.entries))
   }
 
   return (
     <div className="app">
       <form onSubmit={handleSubmit}>
-        <FormInput placeholder="Username" refer={usernameRef}/>
-        <FormInput placeholder="Email"/>
-        <FormInput placeholder="password"/>
-        <FormInput placeholder="something else"/>
+        <FormInput name="username" placeholder="Username"/>
+        <FormInput name="email" placeholder="Email"/>
+        <FormInput name="password" placeholder="password"/>
+        <FormInput name="something" placeholder="something else"/>
         <button>submit</button>
       </form>
     </div>
