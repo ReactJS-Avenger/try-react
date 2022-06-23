@@ -22,3 +22,12 @@
 22. https://codepen.io/mustafa-turk/pen/ExYzvmr
 23. https://codepen.io/developero/pen/GREYzrV
 24. https://codepen.io/jzmmm/pen/KKwjEXJ
+
+
+25. https://www.youtube.com/watch?v=6GvMQ0vMXQU
+26. https://www.youtube.com/watch?v=RPFr-hiFiU0
+27. https://soshace.com/handling-side-effects-in-redux-redux-saga/
+28. https://levelup.gitconnected.com/react-redux-hooks-useselector-and-usedispatch-f7d8c7f75cdd
+29. https://levelup.gitconnected.com/loading-data-in-react-redux-thunk-redux-saga-suspense-hooks-666b21da1569
+
+30. validation form: https://www.youtube.com/watch?v=tIdNeoHniEY
