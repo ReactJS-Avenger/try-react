@@ -31,3 +31,24 @@
 29. https://levelup.gitconnected.com/loading-data-in-react-redux-thunk-redux-saga-suspense-hooks-666b21da1569
 
 30. validation form: https://www.youtube.com/watch?v=tIdNeoHniEY
+
+31. react router: https://www.youtube.com/watch?v=UWYOC8g5N_0&list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG
+
+32. practicle react: https://www.youtube.com/watch?v=LZhwNGpiTEI&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM
+
+33.some reacth helps: https://www.youtube.com/watch?v=EYpdEYK25Dc&list=PLTP3E5bPW7944Ec1lfXzavqRHzxY5FigD&index=21
+
+34. search sort filter pagination: https://www.youtube.com/watch?v=xRBE4iKX0yw
+
+35. react saga and react: https://www.youtube.com/watch?v=M8zenNqxk6c&list=PLZboEx3gZXgdf9BG1D8AocnRKKCX6pVs_
+    
+
+
+
+=====================================================================================
+Form validation:
+1. https://www.youtube.com/watch?v=tIdNeoHniEY
+
+
+2. multiple tags on single input:
+   https://codepen.io/alxmtr/pen/NXrVVw
