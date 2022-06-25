@@ -22,19 +22,20 @@
 22. https://codepen.io/mustafa-turk/pen/ExYzvmr
 23. https://codepen.io/developero/pen/GREYzrV
 24. https://codepen.io/jzmmm/pen/KKwjEXJ
+25. react modal: https://www.kindacode.com/article/how-to-make-a-modal-box-from-scratch-in-reactjs/
 
 
-25. https://www.youtube.com/watch?v=6GvMQ0vMXQU
-26. https://www.youtube.com/watch?v=RPFr-hiFiU0
-27. https://soshace.com/handling-side-effects-in-redux-redux-saga/
-28. https://levelup.gitconnected.com/react-redux-hooks-useselector-and-usedispatch-f7d8c7f75cdd
-29. https://levelup.gitconnected.com/loading-data-in-react-redux-thunk-redux-saga-suspense-hooks-666b21da1569
+26. https://www.youtube.com/watch?v=6GvMQ0vMXQU
+27. https://www.youtube.com/watch?v=RPFr-hiFiU0
+28. https://soshace.com/handling-side-effects-in-redux-redux-saga/
+29. https://levelup.gitconnected.com/react-redux-hooks-useselector-and-usedispatch-f7d8c7f75cdd
+30. https://levelup.gitconnected.com/loading-data-in-react-redux-thunk-redux-saga-suspense-hooks-666b21da1569
 
-30. validation form: https://www.youtube.com/watch?v=tIdNeoHniEY
+31. validation form: https://www.youtube.com/watch?v=tIdNeoHniEY
 
-31. react router: https://www.youtube.com/watch?v=UWYOC8g5N_0&list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG
+32. react router: https://www.youtube.com/watch?v=UWYOC8g5N_0&list=PLC3y8-rFHvwjkxt8TOteFdT_YmzwpBlrG
 
-32. practicle react: https://www.youtube.com/watch?v=LZhwNGpiTEI&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM
+33. practicle react: https://www.youtube.com/watch?v=LZhwNGpiTEI&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM
 
 33.some reacth helps: https://www.youtube.com/watch?v=EYpdEYK25Dc&list=PLTP3E5bPW7944Ec1lfXzavqRHzxY5FigD&index=21
 
