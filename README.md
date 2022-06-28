@@ -42,6 +42,8 @@
 34. search sort filter pagination: https://www.youtube.com/watch?v=xRBE4iKX0yw
 
 35. react saga and react: https://www.youtube.com/watch?v=M8zenNqxk6c&list=PLZboEx3gZXgdf9BG1D8AocnRKKCX6pVs_
+
+36. react project list: https://www.kindacode.com/cat/react/page/10/
     
 
 
