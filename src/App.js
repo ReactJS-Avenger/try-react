@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Todos from "./components/Todos";
+import React from "react";
+import { NavBar } from "./components/NavBar";
+
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Todos/>
+      <NavBar />
     </div>
   );
 }
