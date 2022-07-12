@@ -42,8 +42,10 @@
 
 
         & .connect-us {
+            
 
             & button {
+                cursor: pointer;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -139,6 +141,7 @@
                     border-radius: 20px;
                     margin-top: 15px;
                     margin-bottom: 15px;
+                    cursor: pointer;
 
 
                     & img {

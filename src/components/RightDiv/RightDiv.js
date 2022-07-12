@@ -2,6 +2,7 @@
 import mpage_logo from '../../images/mpages_logo.svg';
 import company_logo from '../../images/company-logo.jpg';
 import teams_logo from '../../images/teams-logo.svg'
+import { MpagesTeamsLink } from '../../Utils/Tools';
 
 const RightDiv = () => {
     return (
@@ -15,7 +16,7 @@ const RightDiv = () => {
                 </div>
             </main>
             <div className='connect-us'>
-                <button>
+                <button onClick={() => window.open(MpagesTeamsLink)}>
                     <img src={teams_logo} alt='teams-logo'/>
                     <span className='connect-us-text'>Connect Us</span>
                 </button>

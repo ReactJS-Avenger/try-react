@@ -15,12 +15,18 @@ import secure_link_logo from '../images/secure-link-logo.PNG';
 import splunk_logo from '../images/splunk-logo.PNG';
 import timesheet from '../images/timesheet.gif';
 import websphere_logo from '../images/websphere-logo.PNG';
+import on_boarding_logo from '../images/on-boarding-logo.png';
+import swagger_logo from '../images/swagger-logo.svg';
+import bom_logo from '../images/bom-logo.png';
+import eod_logo from '../images/EOD-logo.png';
+import pipeline from '../images/pipeline-logo.png';
+import domain from '../images/domain-logo.png';
 
 export const Tools = [
     {
         id: 1,
         name: "On-Boarding",
-        img: no_image,
+        img: on_boarding_logo,
         externalUrl: ''
     },
     {
@@ -44,19 +50,19 @@ export const Tools = [
     {
         id: 5,
         name: "EOD",
-        img: no_image,
+        img: eod_logo,
         externalUrl: "http://ipdevenv.northamerica.cerner.net/"
     },
     {
         id: 6,
-        name: "Feature Tracker Pipeline",
-        img: no_image,
+        name: "Feature Pipeline",
+        img: pipeline,
         externalUrl: "https://milltools-dashboard.cerner.com/"
     },
     {
         id: 7,
         name: "Domain Manager",
-        img: no_image,
+        img: domain,
         externalUrl: "http://ipvmmilladmin01.northamerica.cerner.net/DomainManagerWeb/"
     },
     {
@@ -74,13 +80,13 @@ export const Tools = [
     {
         id: 10,
         name: "BOM Builder",
-        img: no_image,
+        img: bom_logo,
         externalUrl: "https://bombuilder.cerner.com/home"
     },
     {
         id: 11,
         name: "Swagger UI",
-        img: no_image,
+        img: swagger_logo,
         externalUrl: "https://api.milltools.cerner.net/swagger/index.html#/"
     },
     {
@@ -136,5 +142,14 @@ export const Tools = [
         name: "Digital Marketplace",
         img: digital_marketplace,
         externalUrl: "https://factorymarket.cerner.com/saw/ess"
-    }
+    },
+    {
+        id: 21,
+        name: "Cloud Desktop",
+        img: cloud_desktop,
+        externalUrl: "https://desktops.cerner.com/"
+    },
+    
 ]
+
+export const MpagesTeamsLink = "https://teams.microsoft.com/l/channel/19%3ad9c21f46060e4ec4ae73def575680b50%40thread.skype/General?groupId=a9658b8f-d5f4-4fd3-9bf9-8febba303d9b&tenantId=fbc493a8-0d24-4454-a815-f4ca58e8c09d"
