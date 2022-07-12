@@ -1,12 +1,14 @@
 import React from "react";
-import { NavBar } from "./components/NavBar";
 
-import './App.css'
+import './App.scss'
+import LeftDiv from "./components/LeftDiv/LeftDiv";
+import RightDiv from "./components/RightDiv/RightDiv";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <RightDiv/>
+      <LeftDiv/>
     </div>
   );
 }
