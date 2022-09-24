@@ -6,7 +6,8 @@ const HookCounterTwo = () => {
 
     const incrementFive = () => {
         for (let i = 0; i < 5; i++) {
-            setCount(count + 1)
+            // when we want to update the state based on the previous value
+            setCount(prevCount => prevCount + 1)// we can pass function which has previous value to setCount
         }
     }
 
