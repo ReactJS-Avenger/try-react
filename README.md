@@ -30,3 +30,46 @@ Summary - useState
 5. The first element is the current value of the state, and the second element is a state setter function.
 6. New state value depends on the previous state value? you can pass a function to the setter function.
 7. when dealing with objects or arrays, always make sure to spread your state variable and then call the setter function.
+
+----------------------------------------------------------------------------------------------------
+
+useEffect
+
+consider the sideeffects.
+1. Updating the document title to the current counter value
+   
+   componentDidMount(){
+      document.title = `You clicked ${this.state.count} times`;
+   }
+
+   componentDidUpdate(){
+      document.title = `You clicked ${this.state.count} times`;
+   }
+
+2. Timer
+   componentDidMount(){
+      this.interval = setInterval(this.tick, 1000)
+   }
+
+   componentWillUnmount(){
+      clearInterval(this.interval)
+   }
+
+3. combine both
+   // code is repeated
+   // if we combine this with above, then the code related to timer will be put in different lifecycle methods.
+   componentDidMount(){
+      document.title = `You clicked ${this.state.count} times`;
+      this.interval = setInterval(this.tick, 1000)
+   }
+   componentDidUpdate(){
+      document.title = `You clicked ${this.state.count} times`;
+   }
+
+   componentWillUnmount(){
+      clearInterval(this.interval)
+   }
+1. The effectHook lets you perform side effects in functional component.
+2. It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount.
+   
+
