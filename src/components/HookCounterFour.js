@@ -5,6 +5,7 @@ const HookCounterFour = () => {
 
     const addItem = () => {
         // we need to manually merge the state
+        // class based component will automatically merge the state
         setItems([...items, {
             id: items.length,
             value: Math.floor(Math.random() * 10) + 1
