@@ -84,5 +84,8 @@ Now check how to pass data from App component to F component. C-> E -> F
 1. create context
 2. Provider must wrap the children compoennt with value avilable and provide context value.
 3. consume context value
+
+** useContext Hooks only makes the consumption of the value simples. 1 and 2 steps remains same
+we will use useContext hook in component E
    
 
