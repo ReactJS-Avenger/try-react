@@ -71,5 +71,18 @@ consider the sideeffects.
    }
 1. The effectHook lets you perform side effects in functional component.
 2. It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount.
+
+------------------------------------------------------------------------------
+context in react
+context provides a way to pass data through the components tree withouy having to pass props down manually at every level.
+![alt text](./public/context1.PNG)
+
+props drilling
+![alt text](./public/context2.PNG)
+
+Now check how to pass data from App component to F component. C-> E -> F
+1. create context
+2. Provider must wrap the children compoennt with value avilable and provide context value.
+3. consume context value
    
 
