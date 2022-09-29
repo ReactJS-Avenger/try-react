@@ -1,14 +1,22 @@
 import React from "react";
-import { userContext } from "../../App";
+import { userContext, channelContext } from "../../App";
 
 // using render props pattern
-const ComponentF = () =>{
-    return(
+const ComponentF = () => {
+    return (
         <div>
             <userContext.Consumer>
                 {
-                    user =>{
-                        return <div>User context value is {user}</div>
+                    user => {
+                        return (
+                            <channelContext.Consumer>
+                                {
+                                    channel => {
+                                        return <div>User context value is {user} and {channel}</div>
+                                    }
+                                }
+                            </channelContext.Consumer>
+                        )
                     }
                 }
             </userContext.Consumer>
