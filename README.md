@@ -73,6 +73,7 @@ consider the sideeffects.
 2. It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount.
 
 ------------------------------------------------------------------------------
+
 context in react
 context provides a way to pass data through the components tree withouy having to pass props down manually at every level.
 ![alt text](./public/context1.PNG)
@@ -87,5 +88,31 @@ Now check how to pass data from App component to F component. C-> E -> F
 
 ** useContext Hooks only makes the consumption of the value simples. 1 and 2 steps remains same
 we will use useContext hook in component E
+
+-------------------------------------------------------------------------------
+
+useReducer
+1. useReducer is a hook that is used for state management.
+2. it is an alternative to useState
+3. what is the difference?
+4. useState is built using useReducer.
+5. When to useReducer vs useState.
+
+useReducer -> reducers
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+
+
+reduce 
+1. array.reduce(reducer, initialValue)
+2. singleValue = reducer(accumulator, itemValue)
+3. reduce method returns a single value
+
+ useReducer
+ 1. useReducer(reducer, initialState)
+ 2. newState = reducer(currentState, action)
+ 3. useReducer return a pair of values [newState, dispatch]
+
+
    
 
