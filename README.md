@@ -120,6 +120,9 @@ reduce
  3. useReducer + useContext
  ![alt text](./public/useREducer%2BuseContext.PNG)
 
+ useState vs useReducer
+  ![alt text](./public/useStatevsuseReducer.PNG)
+
 
    
 
