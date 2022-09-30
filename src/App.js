@@ -17,6 +17,7 @@ import CounterTwoReducer from './components/useReducerExample/CounterTwoReducer'
 import CounterThreeReducer from './components/useReducerExample/CounterThreeUseReducer';
 import MainComponent from './components/useReducer+useContext/MainComponent';
 import DataFetchingOne from './components/useReducerFetchData/DataFetchingOne';
+import DataFetchingTwo from './components/useReducerFetchData/DataFetchingTwo';
 
 export const userContext = React.createContext();
 export const channelContext = React.createContext();
@@ -43,7 +44,8 @@ function App() {
       {/* <CounterTwoReducer/> */}
       {/* <CounterThreeReducer/> */}
       {/* <MainComponent/> */}
-      <DataFetchingOne/>
+      {/* <DataFetchingOne/> */}
+      <DataFetchingTwo/>
     </div>
   );
 }
