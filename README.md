@@ -114,5 +114,12 @@ reduce
  3. useReducer return a pair of values [newState, dispatch]
 
 
+ useReducer with useContext
+ 1. useReducer - Local state management
+ 2. share state between components - Global state management
+ 3. useReducer + useContext
+ ![alt text](./public/useREducer%2BuseContext.PNG)
+
+
    
 

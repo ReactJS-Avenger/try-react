@@ -15,6 +15,7 @@ import ComponentC from './components/contextexample/ComponentC';
 import CounterOneReducer from './components/useReducerExample/CounterOneReducer';
 import CounterTwoReducer from './components/useReducerExample/CounterTwoReducer';
 import CounterThreeReducer from './components/useReducerExample/CounterThreeUseReducer';
+import MainComponent from './components/useReducer+useContext/MainComponent';
 
 export const userContext = React.createContext();
 export const channelContext = React.createContext();
@@ -39,7 +40,8 @@ function App() {
       </userContext.Provider> */}
       {/* <CounterOneReducer/> */}
       {/* <CounterTwoReducer/> */}
-      <CounterThreeReducer/>
+      {/* <CounterThreeReducer/> */}
+      <MainComponent/>
     </div>
   );
 }
