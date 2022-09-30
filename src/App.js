@@ -14,6 +14,7 @@ import DataFetching from './components/DataFetching';
 import ComponentC from './components/contextexample/ComponentC';
 import CounterOneReducer from './components/useReducerExample/CounterOneReducer';
 import CounterTwoReducer from './components/useReducerExample/CounterTwoReducer';
+import CounterThreeReducer from './components/useReducerExample/CounterThreeUseReducer';
 
 export const userContext = React.createContext();
 export const channelContext = React.createContext();
@@ -37,7 +38,8 @@ function App() {
         </channelContext.Provider>
       </userContext.Provider> */}
       {/* <CounterOneReducer/> */}
-      <CounterTwoReducer/>
+      {/* <CounterTwoReducer/> */}
+      <CounterThreeReducer/>
     </div>
   );
 }
