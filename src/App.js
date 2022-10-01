@@ -19,6 +19,7 @@ import MainComponent from './components/useReducer+useContext/MainComponent';
 import DataFetchingOne from './components/useReducerFetchData/DataFetchingOne';
 import DataFetchingTwo from './components/useReducerFetchData/DataFetchingTwo';
 import ParentComponent from './components/useCallbackHook/ParentComponent';
+import Counter from './components/useMemoExample/Counter';
 
 export const userContext = React.createContext();
 export const channelContext = React.createContext();
@@ -47,7 +48,8 @@ function App() {
       {/* <MainComponent/> */}
       {/* <DataFetchingOne/> */}
       {/* <DataFetchingTwo/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <Counter/>
     </div>
   );
 }
