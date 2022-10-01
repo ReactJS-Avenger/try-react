@@ -136,6 +136,12 @@ reduce
   It is useful when passing callback to optimized child component that rely on the reference equality to prevent unnecessary render.
 
 
+---------------------------------------------------------------------------------
+
+useRef
+1. we can access dom node directly within fucntional component.
+2. once the page loads focus on the input 
+
 
 
 

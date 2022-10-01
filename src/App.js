@@ -20,6 +20,7 @@ import DataFetchingOne from './components/useReducerFetchData/DataFetchingOne';
 import DataFetchingTwo from './components/useReducerFetchData/DataFetchingTwo';
 import ParentComponent from './components/useCallbackHook/ParentComponent';
 import Counter from './components/useMemoExample/Counter';
+import FocusInput from './components/useRefExample/FocusInput';
 
 export const userContext = React.createContext();
 export const channelContext = React.createContext();
@@ -49,7 +50,8 @@ function App() {
       {/* <DataFetchingOne/> */}
       {/* <DataFetchingTwo/> */}
       {/* <ParentComponent/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <FocusInput />
     </div>
   );
 }
