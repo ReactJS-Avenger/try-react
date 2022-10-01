@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import Button from "./Button";
 import Count from "./Count";
 import Title from "./Title";
@@ -14,13 +14,15 @@ const ParentComponent = () => {
     const [age, setAge] = useState(25);
     const [salary, setSalary] = useState(50000)
 
-    const incrementAge = () => {
+    const incrementAge = useCallback(() => {
         setAge(age + 1)
-    }
+    }, [age])
 
-    const incrementSalary = () => {
+    const incrementSalary = useCallback(() => {
         setSalary(salary + 1000)
-    }
+    }, [salary])
+    // in the above case we have returned the cached fucntion. This is returned only when dependecy is changed
+    
 
     return (
         <div>

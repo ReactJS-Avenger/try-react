@@ -123,6 +123,21 @@ reduce
  useState vs useReducer
   ![alt text](./public/useStatevsuseReducer.PNG)
 
+  React.memo - > is a HOC which prevents functional component from rerender if its props or states do not change.
+  React memo -> when we click on increment Age we see Increment salary logs. 
+  The reson we are getting logs is.new  incrementsalary function is creted each time parent compoennt rerenders.
+  since the function is a props here. react.memo thinks that the props has changesd and will not prevent the rerender.
+
+  useCallback hooks
+  what?
+  useCallback is a hook that will return a memoized version of the callback fucntion that only changes if one of the dependecies has changed.
+
+  why?
+  It is useful when passing callback to optimized child component that rely on the reference equality to prevent unnecessary render.
+
+
+
+
 
    
 

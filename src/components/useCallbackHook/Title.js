@@ -9,4 +9,4 @@ const Title = () =>{
         </h2>
     )
 }
-export default Title;
+export default React.memo(Title);
