@@ -24,6 +24,7 @@ import FocusInput from './components/useRefExample/FocusInput';
 import ClassTimer from './components/useRefExample/ClassTimer';
 import HookTimer from './components/useRefExample/HookTimer';
 import DocTitleOne from './components/CustomHookExample/DocTitleOne';
+import DocTitleTwo from './components/CustomHookExample/DocTitleTwo';
 
 export const userContext = React.createContext();
 export const channelContext = React.createContext();
@@ -58,6 +59,7 @@ function App() {
       {/* <ClassTimer/> */}
       {/* <HookTimer/> */}
       <DocTitleOne/>
+      <DocTitleTwo/>
     </div>
   );
 }
