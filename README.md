@@ -149,6 +149,15 @@ some other hooks
 2. useLayoutEffect
 3. useDebugValue
 
+-----------------------------------------------------------------------------------
+
+Custom Hooks
+1. A custom Hook is basically a javascript fucntion whose name starts with 'use';
+2. A custom hook can also call other Hooks if requried.
+
+why?
+Share Logic - Alternative to HOCs and Render Props
+
 
 
 
