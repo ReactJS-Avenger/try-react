@@ -142,6 +142,13 @@ useRef
 1. we can access dom node directly within fucntional component.
 2. once the page loads focus on the input 
 
+----------------------------------------------------------------------------------
+
+some other hooks
+1. useImperative
+2. useLayoutEffect
+3. useDebugValue
+
 
 
 
