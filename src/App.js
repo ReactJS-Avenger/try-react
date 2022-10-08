@@ -27,6 +27,7 @@ import DocTitleOne from './components/CustomHookExample/DocTitleOne';
 import DocTitleTwo from './components/CustomHookExample/DocTitleTwo';
 import CounterHookOne from './components/CustomHookExample/CounterHookOne';
 import CounterHookTwo from './components/CustomHookExample/CounterHookTwo';
+import UseForm from './components/CustomHookExample/UserForm';
 
 export const userContext = React.createContext();
 export const channelContext = React.createContext();
@@ -62,8 +63,9 @@ function App() {
       {/* <HookTimer/> */}
       {/* <DocTitleOne/>
       <DocTitleTwo/> */}
-      <CounterHookOne/>
-      <CounterHookTwo/>
+      {/* <CounterHookOne/>
+      <CounterHookTwo/> */}
+      <UseForm/>
     </div>
   );
 }
